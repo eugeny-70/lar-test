@@ -2,7 +2,7 @@
 
 
 // Variables
-@import 'variables';
+@import '_variables';
 
 // Bootstrap
 @import '../../../node_modules/bootstrap/scss/bootstrap';
@@ -15,4 +15,8 @@ body {
 
 .app-content {
     flex: 1;
+}
+
+.table th, .table td {
+    padding: 0.55rem 0.75rem;
 }
