@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\UseCases;
+namespace App\UseCases\Auth;
 
 use App\Entity\User;
 use App\Http\Requests\Auth\RegisterRequest;

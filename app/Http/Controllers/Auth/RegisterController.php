@@ -6,11 +6,9 @@ use App\Http\Requests\Auth\RegisterRequest;
 use App\Mail\Auth\VerifyMail;
 use App\Entity\User;
 use App\Http\Controllers\Controller;
-use App\UseCases\RegisterService;
+use App\UseCases\Auth\RegisterService;
 use DomainException;
-use Illuminate\Auth\Events\Registered;
-use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Str;
+
 
 class RegisterController extends Controller
 {

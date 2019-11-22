@@ -7,7 +7,8 @@ use App\Entity\User;
 use App\Http\Requests\Admin\User\CreateRequest;
 use App\Http\Requests\Admin\User\UpdateRequest;
 use App\Http\Controllers\Controller;
-use App\UseCases\RegisterService;
+use App\UseCases\Auth\RegisterService;
+
 
 
 class UsersController extends Controller
