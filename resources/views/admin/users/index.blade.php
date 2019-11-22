@@ -1,9 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-
     @include('admin.users._nav')
-    <h1>Test</h1>
+
     <p><a href="{{ route('admin.users.create') }}" class="btn btn-success">Add User</a></p>
 
     <table class="table table-bordered table-striped">

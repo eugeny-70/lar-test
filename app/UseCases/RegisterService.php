@@ -7,6 +7,8 @@ use App\Entity\User;
 use App\Http\Requests\Auth\RegisterRequest;
 use App\Mail\Auth\VerifyMail;
 use Illuminate\Auth\Events\Registered;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Contracts\Mail\Mailer;
 use Illuminate\Support\Facades\Mail;
 
 class RegisterService
